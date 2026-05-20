@@ -1,0 +1,14 @@
+# Index the reference assembly with Winnowmap
+winnowmap -d reference.mmi reference.fasta
+
+# Quick alignment of query to reference
+winnowmap -x asm20 reference.fasta query.fasta > aln.paf
+
+# Optional: convert SAM to sorted BAM
+samtools view -bS aln.sam | samtools sort -o aln.sorted.bam
+
+# Optional: index BAM for visualization
+samtools index aln.sorted.bam
+
+#try out your own minimap2
+minimap2 -x asm20 -t8 ref.fasta query.fasta > aln.paf
