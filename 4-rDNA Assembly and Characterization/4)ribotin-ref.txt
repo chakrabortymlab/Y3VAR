@@ -1,0 +1,8 @@
+ribotin-ref \
+  -i clean_rDNA_5x_subsampled.fastq \
+  --nano clean_rDNA_5x_subsampled.fastq \
+  -r GoodUnit.fasta \
+  -o 5xRef_output \
+  --approx-morphsize 13592 \
+  --morph-cluster-maxedit 10 \
+  --morph-recluster-minedit 1
