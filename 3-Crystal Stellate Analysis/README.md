@@ -76,7 +76,8 @@ Chromosome Conformation Capture (Hi-C) pipelines used to determine physical inte
 | `Juicer.slurm` | SLURM Script | *Executes the complete Juicer Hi-C pipeline on a custom genome assembly.* |
 | `How2HIC.txt` | Reference / Notes | *A command-line reference guide for downstream Hi-C analysis, detailing how to convert Juicer outputs to multi-resolution .mcool formats. Provides copy-paste examples for generating whole-genome contact maps, calling TADs, and plotting annotations using HiCExplorer.* |
 | `How2Juicer.txt` | Reference / Notes | *Reference documentation for preprocessing raw paired-end Hi-C reads with fastp and running the core Juicer pipeline. Outlines the necessary steps to index the reference genome, generate restriction site profiles, and execute the contact matrix assembly.* |
-
+| ` CustomContact.py` | Python Utility | *Custom script used to generate Observed/Expected contact matrices for HiC contact data on the PCKR/Su(Ste) tandem array* |
+| `intersect_domains.py` | Python Utility | *Intersects coordinates of the observed PCKR/Su(Ste) Islands with HiC contact matrices to quantify contact within and between islands* |
 ---
 
 ## Method 6: Calculation of Similarity Between Array Units
