@@ -1,5 +1,3 @@
-# Maintenance of Functional Repeat Arrays on the *Drosophila* Y Chromosome
-
 
 This repository contains the custom scripts, SLURM cluster workflows, and documentation utilized for the study **"Maintenance of functional repeat arrays on the *Drosophila* Y chromosome"**.
 The codebase is organized into modular directories corresponding directly to the major phases of our methods section. Each directory contains its own dedicated `README.md` detailing script executions, parameters, and cluster environment requirements.
