@@ -33,6 +33,6 @@ Navigate to the individual directories below for specific step-by-step documenta
 
 ---
 
-## Citation & Code Availability
+## Citation
 
 Coming Soon
